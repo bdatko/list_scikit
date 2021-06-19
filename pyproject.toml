@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "list_scikit"
+version = "0.1.0"
+description = ""
+authors = ["benda"]
+
+[tool.poetry2conda]
+name = "list_scikit"
+
+[tool.poetry2conda.dependencies]
+matplotlib-venn = { channel = "conda-forge" }
+ipython = { channel = "anaconda" }
+ipykernel = { channel = "anaconda" }
+mdutils = { channel = "pip" }
+black = { channel = "pip"}
+commitizen = { channel = "pip" }
+poetry2conda = {channel = "pip"}
+
+[tool.poetry.dependencies]
+python = "^3.7"
+matplotlib-venn = "^0.11.6"
+ipython = "^7.16.1"
+jupyter = "^1.0.0"
+ipykernel = "^5.3.4"
+mdutils = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+poetry2conda = "^0.3.0"
+commitizen = "^2.17.9"
+mypy = "^0.902"
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
