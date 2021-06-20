@@ -1,0 +1,2 @@
+## My List - Scikit Realted Projects
+A simple project to get and compare [Related projects](https://scikit-learn.org/stable/related_projects.html) to my own curated. You can clone the project and create all the post and necessary data files by using `make all`.
