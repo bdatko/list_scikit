@@ -16,15 +16,15 @@ I have found a few projects both on and off the list from SciKit's official aggr
 
 Below is my list of just the differences from the above venn diagram:
 
-* [feature_engine](https://github.com/solegalli/feature_engine)
-* [metric-learn](https://github.com/scikit-learn-contrib/metric-learn)
+* [pulearn](https://github.com/pulearn/pulearn)
 * [pdpipe](https://github.com/pdpipe/pdpipe)
-* [scikit-multiflow](https://github.com/scikit-multiflow/scikit-multiflow)
-* [fancyimpute](https://github.com/iskandr/fancyimpute)
 * [pymc-learn](https://github.com/pymc-learn/pymc-learn/)
 * [autoimpute](https://github.com/kearnz/autoimpute)
+* [scikit-multiflow](https://github.com/scikit-multiflow/scikit-multiflow)
 * [ml-insights](https://github.com/numeristical/introspective)
-* [pulearn](https://github.com/pulearn/pulearn)
+* [fancyimpute](https://github.com/iskandr/fancyimpute)
+* [metric-learn](https://github.com/scikit-learn-contrib/metric-learn)
+* [feature_engine](https://github.com/solegalli/feature_engine)
 
 Finally the full list of projects:
 
