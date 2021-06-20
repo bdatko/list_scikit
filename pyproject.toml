@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "list_scikit"
-version = "0.0.1"
+version = "0.1.0"
 description = ""
 authors = ["benda"]
 
 [tool.commitizen]
-version = "0.0.1"
+version = "0.1.0"
 tag_format = "$version"
 version_files = [
   "pyproject.toml:version",

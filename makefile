@@ -45,6 +45,11 @@ scikit_learn_related_post.md: post.py data/libraries.csv data/venn.png list_scik
 test:
 	@echo $(activate_env) && python --version 
 
+## clean project
+clean:
+	rm -rf data/scikit_related_projects.rst data/libraries.csv data/venn.png 
+	rm -rf scikit_learn_related_post.md
+
 
 .PHONY: realclean
 ## Remove unused conda packages then remove the environment
