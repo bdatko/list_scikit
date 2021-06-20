@@ -19,4 +19,5 @@ MY_LIST_DICT = {
     "ml-insights": "[ml-insights](https://github.com/numeristical/introspective)",
     "yellowbrick": "[yellowbrick](https://github.com/districtdatalabs/yellowbrick)",
     "autoimpute": "[autoimpute](https://github.com/kearnz/autoimpute)",
+    "scikit-optimize": "[scikit-optimize](https://scikit-optimize.github.io/stable/)", 
 }
