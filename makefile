@@ -12,7 +12,7 @@ activate_env := source $(conda_activate) $(env_name)
 
 .PHONY: all
 ## Make the project
-all: .cenv data/scikit_related_projects.rst data/libraries.csv
+all: .cenv data/scikit_related_projects.rst data/libraries.csv data/venn.png
 
 ## Create the environment.yaml file from poetry2conda
 environment.yaml: pyproject.toml
@@ -31,6 +31,10 @@ data/scikit_related_projects.rst:
 ## Create the list of libraries from scikit-learn related projects
 data/libraries.csv: post.py data/scikit_related_projects.rst
 	$(activate_env) && python $< create_scikit_offical data/scikit_related_projects.rst $@
+
+## Create the Venn digram comparing scikit-learn with my own list
+data/venn.png: post.py data/libraries.csv list_scikit/constants.py
+	$(activate_env) && python $< create_venn_figure data/libraries.csv data/venn.png
 
 .PHONY: test
 ## Test for source and activate
