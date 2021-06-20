@@ -12,7 +12,7 @@ activate_env := source $(conda_activate) $(env_name)
 
 .PHONY: all
 ## Make the project
-all: .cenv data/scikit_related_projects.rst
+all: .cenv data/scikit_related_projects.rst data/libraries.csv
 
 ## Create the environment.yaml file from poetry2conda
 environment.yaml: pyproject.toml
@@ -27,6 +27,10 @@ environment.yaml: pyproject.toml
 ## Get the scikit-learn list
 data/scikit_related_projects.rst:
 	curl -o $@ https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/related_projects.rst
+
+## Create the list of libraries from scikit-learn related projects
+data/libraries.csv: post.py data/scikit_related_projects.rst
+	$(activate_env) && python $< create_scikit_offical data/scikit_related_projects.rst $@
 
 .PHONY: test
 ## Test for source and activate
