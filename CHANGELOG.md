@@ -1,3 +1,18 @@
+## 0.2.0 (2021-06-20)
+
+### Fix
+
+- **data/venn.png-scikit_learn_related_post.md**: finally update the venn diagram
+- **data/venn.png**: rm data/venn.png to update remote
+- **scikit_learn_related_posts.md**: update the venn diagram
+- **data/***: add the data
+
+### Feat
+
+- **tests/**: add unit test to the project
+- **data/venn.png-scikit_learn_related_post.md**: add scikit-opt library to my list, rebuilt data
+- **list_scikit/constants.py**: add scikit-opt to my list
+
 ## 0.1.0 (2021-06-19)
 
 ### Feat
