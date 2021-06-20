@@ -17,14 +17,14 @@ I have found a few projects both on and off the list from SciKit's official aggr
 Below is my list of just the differences from the above venn diagram:
 
 * [pdpipe](https://github.com/pdpipe/pdpipe)
-* [pulearn](https://github.com/pulearn/pulearn)
-* [scikit-multiflow](https://github.com/scikit-multiflow/scikit-multiflow)
-* [pymc-learn](https://github.com/pymc-learn/pymc-learn/)
-* [ml-insights](https://github.com/numeristical/introspective)
-* [fancyimpute](https://github.com/iskandr/fancyimpute)
-* [feature_engine](https://github.com/solegalli/feature_engine)
-* [metric-learn](https://github.com/scikit-learn-contrib/metric-learn)
 * [autoimpute](https://github.com/kearnz/autoimpute)
+* [feature_engine](https://github.com/solegalli/feature_engine)
+* [scikit-multiflow](https://github.com/scikit-multiflow/scikit-multiflow)
+* [ml-insights](https://github.com/numeristical/introspective)
+* [metric-learn](https://github.com/scikit-learn-contrib/metric-learn)
+* [pymc-learn](https://github.com/pymc-learn/pymc-learn/)
+* [pulearn](https://github.com/pulearn/pulearn)
+* [fancyimpute](https://github.com/iskandr/fancyimpute)
 
 Finally the full list of projects:
 
@@ -44,3 +44,4 @@ Finally the full list of projects:
 * [ml-insights](https://github.com/numeristical/introspective)
 * [yellowbrick](https://github.com/districtdatalabs/yellowbrick)
 * [autoimpute](https://github.com/kearnz/autoimpute)
+* [scikit-optimize](https://scikit-optimize.github.io/stable/)
