@@ -1,8 +1,16 @@
 [tool.poetry]
 name = "list_scikit"
-version = "0.1.0"
+version = "0.0.1"
 description = ""
 authors = ["benda"]
+
+[tool.commitizen]
+version = "0.0.1"
+tag_format = "$version"
+version_files = [
+  "pyproject.toml:version",
+  "list_scikit/__init__.py"
+]
 
 [tool.poetry2conda]
 name = "list_scikit"
