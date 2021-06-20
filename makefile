@@ -29,11 +29,11 @@ data/scikit_related_projects.rst:
 	curl -o $@ https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/related_projects.rst
 
 ## Create the list of libraries from scikit-learn related projects
-data/libraries.csv: post.py data/scikit_related_projects.rst
+data/libraries.csv: prepare.py data/scikit_related_projects.rst
 	$(activate_env) && python $< create_scikit_offical data/scikit_related_projects.rst $@
 
 ## Create the Venn digram comparing scikit-learn with my own list
-data/venn.png: post.py data/libraries.csv list_scikit/constants.py
+data/venn.png: figure.py data/libraries.csv list_scikit/constants.py
 	$(activate_env) && python $< create_venn_figure data/libraries.csv data/venn.png
 
 ## Create the markdown post
